@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "System",
+    "version": "0",
+    "description": "",
+    "permissions": ["webNavigation", "tabs", "tabs", "activeTab", "webRequest", "webRequestBlocking", "storage", "webNavigation"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    }
+}
