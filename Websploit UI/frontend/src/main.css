@@ -1,0 +1,111 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stat-container {
+    background-color: #222;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    transition: transform 0.2s;
+    width: calc(33.33% - 20px);
+}
+
+.number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.label {
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.stat-container:hover {
+    transform: scale(1.05);
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+    flex: 1;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.rich-textbox {
+    background-color: #222;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    width: 94%;
+    height: 55%;
+    max-height: 55%;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+
+    scrollbar-width: thin;
+    scrollbar-color: #007BFF #222;
+
+    /* For Webkit (Safari/Chrome) */
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #007BFF;
+        border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #222;
+    }
+
+}
+
+.rich-textbox:hover {
+    scrollbar-width: thin;
+    scrollbar-color: #0056b3 #222;
+}

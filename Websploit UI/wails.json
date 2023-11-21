@@ -1,0 +1,10 @@
+{
+  "name": "Websploit",
+  "outputfilename": "Websploit",
+  "frontend:install": "",
+  "frontend:build": "",
+  "author": {
+    "name": "9dl",
+    "email": "vestige1887@gmail.com"
+  }
+}
