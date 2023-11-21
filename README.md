@@ -21,7 +21,9 @@ Keep your Server up to date and search about how to prevent it:
 **Server:** Golang
 
 ## Info
-
+- Websploit RAT => Server
+- Websploit Extensions => Client (only Chromium Browsers Supported | Tested on: Brave/Chrome)
+- Websploit UI => Server and Client (isnt working but was for Testing with UI)
 This Project was coded Poorly and isnt Completed (Half done)
 
 
